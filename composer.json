@@ -18,5 +18,10 @@
             "BashIgniter\\": "src/"
         }
     },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"!file_exists('igniter') || copy('https://raw.githubusercontent.com/omarkdev/igniter/master/igniter', 'igniter');\""
+        ]
+    },
     "minimum-stability": "dev"
 }
