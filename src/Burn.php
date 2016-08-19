@@ -22,7 +22,12 @@ class Burn{
 	}
 
 	private function registerCommands(){
-		
+		$this->symfonyConsole->add(new Command\CreateController());
+		$this->symfonyConsole->add(new Command\CreateModel());
+		$this->symfonyConsole->add(new Command\CreateView());
+		$this->symfonyConsole->add(new Command\CreateHelper());
+		$this->symfonyConsole->add(new Command\CreateCore());
+		$this->symfonyConsole->add(new Command\CreateRoute());
 	}
 
 	public function __destruct(){
