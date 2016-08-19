@@ -25,3 +25,8 @@ Or access the repository and download it in your project folder:
 [https://github.com/omarkdev/igniter/](https://github.com/omarkdev/igniter/)
 
 Soon after performing these two steps, you are **ready to use bash-igniter**.
+
+
+# Documentation
+
+To learn how to use Bash Igniter you can [read our wiki](/../../wiki) with documentation.
