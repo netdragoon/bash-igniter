@@ -19,7 +19,7 @@
         }
     },
     "scripts": {
-        "post-root-package-install": [
+        "post-package-install": [
             "php -r \"!file_exists('igniter') || copy('https://raw.githubusercontent.com/omarkdev/igniter/master/igniter', 'igniter');\""
         ]
     },
